@@ -6,7 +6,7 @@
 
     <groupId>com.rtang</groupId>
     <artifactId>zookeeper-monitor</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <jopt-simple.version>5.0.4</jopt-simple.version>
