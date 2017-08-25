@@ -11,9 +11,9 @@ It is possible for the core data-handling threads to be completely deadlocked bu
 
 #### How To Run
 - Download the release jar
-- Run `java -jar zookeeper-monitor-jar-with-dependencies.jar --zkEndpoint=kafka-<zookeeper-host:port>`
+- Run `java -jar zookeeper-monitor-jar-with-dependencies.jar --zkEndpoint=<zookeeper-host:port>`
 
 #### Example Output
-```json
+```javascript
 {"metrics":{"zk_create_latency_ms":"158","zk_delete_latency_ms":"155","zk_read_latency_ms":"153","zk_success":"1"}}
 ```
